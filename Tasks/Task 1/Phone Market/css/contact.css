@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+.all{
+    margin-top: 50px;
+}
+.box{
+    width: 100%;
+    height: 550px;
+    background-color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+.box .massage{
+    font-size: 90px;
+}
+iframe{
+    width: 100%;
+    height: 550px;
+}
+form ::placeholder{
+    font-family: 'Montserrat', sans-serif;
+
+}
+.box .names{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.box .names .name{
+    width: 49%;
+    height: 50px;
+    padding: 5px 10px;
+}
+.box .email{
+    margin-bottom: 15px;
+}
+.submit{
+    width: 180px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    margin-top: 15px;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.4s;
+}
+.submit:hover{
+    box-shadow: inset 0px 0px 30px 5px rgb(196 88 239);
+    transition: all 0.4s;
+}
+
+
+
+
+
+

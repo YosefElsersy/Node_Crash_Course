@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include("C:\Users\yosef\OneDrive\Desktop\0x04 Express Server - Dynamic Site\views\partials\head.ejs") %>
+<body>
+    <%- inlcude("C:\Users\yosef\OneDrive\Desktop\0x04 Express Server - Dynamic Site\views\partials\nav.ejs") %>
+            <center>
+                <div class="create-blog content">
+                    <form action="/blogs" method="POST">
+                        <label for="title">Blog title:</label>
+                        <input type="text" id="title" name="title" required>
+                        <label for="snippet">Blog snippet:</label>
+                        <input type="text" id="snippet" name="snippet" required>
+                        <label for="body">Blog body:</label>
+                        <textarea name="body" id="body" cols="30" rows="10" required></textarea>
+                        <button>Submit</button>
+                    </form>
+                </div>
+            </center>
+    <%- include("./partials/footer.ejs") %>
+</body>
+</html>

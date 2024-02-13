@@ -1,0 +1,53 @@
+.footer{
+    margin-top: 100px;
+    width: 100%;
+    height: 50px;
+    padding: 8px 60px;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    z-index: 99999999999999999 !important;
+}
+.footer a{
+    color: violet;
+    text-decoration: none;
+}
+.footer .social i{
+    font-size: 20px;
+    margin-left: 15px;
+    padding: 7px 10px;
+    color: rgb(230, 230, 230);
+    border-radius: 50%;
+    border: 1px solid white;
+    transition: all 5s;
+}
+.footer .social .face{
+    font-size: 20px;
+    margin-left: 15px;
+    padding: 7px 11px;
+    color: rgb(230, 230, 230);
+    border-radius: 50%;
+    border: 1px solid white;
+    transition: all 2s !important;
+}
+.footer .social .face:hover{
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    transition: ease-in-out 2s !important;
+}
+.footer .social .snap{
+    font-size: 20px;
+    margin-left: 15px;
+    padding: 7px 7px;
+    color: rgb(230, 230, 230);
+    border-radius: 50%;
+    border: 1px solid white;
+    transition: all 5s;
+}
+.footer .social .snap:hover{
+    background: linear-gradient(to right, #d3cf00, #cccccc);
+    transition: all 5s;
+}
+.social .insta:hover{
+    background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+}
