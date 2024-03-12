@@ -36,10 +36,6 @@ Welcome to our comprehensive crash course, designed to catapult your web develop
 
 Feel free to fork this repository, submit pull requests, or open issues to suggest improvements or additional features. Your contributions are highly appreciated!
 
-### License
-
-This crash course is open-sourced under the MIT License. See the LICENSE file for more details.
-
 ### Final Words
 
 Whether you're new to server-side development or looking to expand your skill set in web development, this crash course offers a valuable starting point. Dive in, and let's start building something amazing together!
